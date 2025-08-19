@@ -1,0 +1,98 @@
+# =============== #
+# Unity Generated #
+# =============== #
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+#[Ll]ogs/
+/MemoryCaptures/
+#*.stacktrace
+
+# ============ #
+# OS Specific  #
+# ============ #
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ #
+# IDE Specific #
+# ============ #
+
+#.vscode/
+#.idea/
+#*.sln
+#*.csproj
+#*.user
+#*.unityproj
+
+# ================== #
+# Crash + Cache Files
+# ================== #
+
+*.pidb
+*.suo
+# *.userprefs
+# *.booproj
+# *.svd
+*.pdb
+
+# =============== #
+# Unity Collab    #
+# =============== #
+
+.collab/
+
+# =============== #
+# Rider Files     #
+# =============== #
+
+#.idea/
+#*.sln.iml
+
+# =============== #
+# Builds & Binaries
+# =============== #
+
+*.apk
+*.aab
+*.exe
+*.app
+*.zip
+*.unitypackage
+
+# =================== #
+# Shader Cache
+# =================== #
+
+*.giparams
+*.gpuhcache
+
+# Optional: Auto-generated Lighting Data
+# If you want to regenerate lighting on every pull:
+# Uncomment the next line
+# [Bb]akedData/
+
+# ================== #
+# Auto-generated Input System data
+# ================== #
+#GeneratedInputs/
+
+# =============== #
+# Unity Cache
+# =============== #
+
+#*.csproj
+#*.unityproj
+#*.sln
+#*.sln.*
+
+# =================== #
+# Personal settings (optional to ignore)
+# =================== #
+#/*.user
+#/*.userprefs
