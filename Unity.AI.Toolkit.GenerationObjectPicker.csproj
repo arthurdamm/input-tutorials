@@ -15,15 +15,15 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>Unity.AI.Toolkit.GenerationObjectPicker</RootNamespace>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>Unity.AI.Toolkit.GenerationObjectPicker</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup>
     <NoWarn>0169;USG0001</NoWarn>
-    <DefineConstants>UNITY_6000_2_0;UNITY_6000_2;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_HAS_CUSTOM_MUTEX;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <DefineConstants>UNITY_6000_2_0;UNITY_6000_2;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_HAS_CUSTOM_MUTEX;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;OBJECT_SELECTOR_TOOLBAR_DECORATOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
@@ -37,7 +37,7 @@
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
     <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
-    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
     <UnityVersion>6000.2.0f1</UnityVersion>
   </PropertyGroup>
@@ -46,120 +46,14 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
-    <Analyzer Include="/Users/arthurdamm/input-tutorials/Library/PackageCache/com.unity.ai.inference@4ac711cab9a3/Runtime/Core/SourceGenerator/SourceGenerators.dll" />
-    <Analyzer Include="/Users/arthurdamm/input-tutorials/Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/SourceGenerators/netstandard2.0/EnumToLowerCase.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.toolkit@493fe336b8c1/Modules/GenerationObjectPicker/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.toolkit@493fe336b8c1/Modules/GenerationObjectPicker/ObjectSelectorUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.toolkit@493fe336b8c1/Modules/GenerationObjectPicker/GenerationObjectPicker.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/common.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/log4netPlastic.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/lz4x64Plastic.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/unityplastic.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.es.txt" />
-    <None Include="Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/PackageResources/Editor/ProjectSettings.uxml" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/FileSystemWatcherLicense.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/common.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.ai.toolkit@493fe336b8c1/Modules/Sdk/Editor/AiEditorToolsSdk.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/zlib64Plastic.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.zh-Hans.txt" />
+    <None Include="Library/PackageCache/com.unity.ai.toolkit@493fe336b8c1/Modules/GenerationObjectPicker/Unity.AI.Toolkit.GenerationObjectPicker.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1240,72 +1134,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.Accounts.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.Asset.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.Async.csproj" />
+    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
     <ProjectReference Include="UnityEditor.TestRunner.csproj" />
     <ProjectReference Include="UnityEngine.TestRunner.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
-    <ProjectReference Include="Unity.TextMeshPro.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj" />
-    <ProjectReference Include="Unity.Timeline.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj" />
-    <ProjectReference Include="PPv2URPConverters.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj" />
-    <ProjectReference Include="Unity.Searcher.Editor.csproj" />
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj" />
-    <ProjectReference Include="Unity.Burst.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj" />
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.ONNX.Editor.csproj" />
-    <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.MacBLAS.csproj" />
-    <ProjectReference Include="Unity.Rider.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Assistant.Bridge.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.Editor.csproj" />
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj" />
-    <ProjectReference Include="Unity.Collections.csproj" />
-    <ProjectReference Include="Unity.InputSystem.ForUI.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.csproj" />
-    <ProjectReference Include="Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.csproj" />
-    <ProjectReference Include="Unity.Timeline.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj" />
-    <ProjectReference Include="Unity.AppUI.Editor.csproj" />
-    <ProjectReference Include="Unity.Mathematics.csproj" />
-    <ProjectReference Include="Unity.Serialization.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj" />
-    <ProjectReference Include="UnityEngine.UI.csproj" />
-    <ProjectReference Include="Unity.Multiplayer.Center.Common.csproj" />
-    <ProjectReference Include="Unity.Burst.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj" />
-    <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
-    <ProjectReference Include="Unity.AI.Assistant.AvatarHelper.Editor.csproj" />
-    <ProjectReference Include="Unity.Rendering.LightTransport.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.State.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj" />
-    <ProjectReference Include="Unity.AppUI.csproj" />
-    <ProjectReference Include="Unity.AppUI.Navigation.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
-    <ProjectReference Include="Unity.Collections.Editor.csproj" />
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj" />
-    <ProjectReference Include="Unity.Serialization.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.iOSBLAS.csproj" />
-    <ProjectReference Include="Unity.InputSystem.csproj" />
-    <ProjectReference Include="UnityEditor.UI.csproj" />
-    <ProjectReference Include="Unity.AppUI.Redux.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

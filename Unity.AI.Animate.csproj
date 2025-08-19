@@ -15,9 +15,9 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <EnableDefaultItems>false</EnableDefaultItems>
     <LangVersion>9.0</LangVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>Unity.AI.Animate</RootNamespace>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>Unity.AI.Animate</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -37,7 +37,7 @@
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
     <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
-    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
     <UnityVersion>6000.2.0f1</UnityVersion>
   </PropertyGroup>
@@ -46,120 +46,126 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
-    <Analyzer Include="/Users/arthurdamm/input-tutorials/Library/PackageCache/com.unity.ai.inference@4ac711cab9a3/Runtime/Core/SourceGenerator/SourceGenerators.dll" />
-    <Analyzer Include="/Users/arthurdamm/input-tutorials/Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/SourceGenerators/netstandard2.0/EnumToLowerCase.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Slices/GenerationSettingsSlice.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/SessionPersistence/MemoryPersistence.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AnimationClipRenderingUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Motion/MotionUtilities.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Selectors/AppSelectors.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/Creators/AssetActionCreator.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AnimationClipDatabaseItem.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Windows/AnimateGeneratorInspectorButton.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/VideoUtilReflected.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Undo/AssetUndoManager.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Motion/MotionResponse.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/DebuggerActions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/ProgressUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/RefinementModeTabView/RefinementModeTabView.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AnimationClipResultExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/EditorUtilityWrapper.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/PreviewSizeSlider/PreviewSizeSlider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AnimationClipLoopUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/DebuggerState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/GenerationResults.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/SessionPersistence/AppData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Selectors/SessionSelectors.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/Backend/Quote.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerationSelector/GenerationSelector.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/GenerationSettingsActions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AssetTitleCard/AssetTitleCard.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Selectors/GenerationSettingsSelectors.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/AIAnimateStore.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/GenerationRecovery.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AssetUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AssetContextExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/ModelTitleCard/ModelTitleCard.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/GenerationSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerateVariationsSlider/GenerateVariationsSlider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AnimationClipUtilities.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/AppActions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/TextureSkeletonExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/Prompt/Prompt.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AssetTitleCard/SelectedAssetTitleCard.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/GenerationResult.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Windows/AnimateGeneratorObjectPicker.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Slices/GenerationResultsSlice.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerateButton/GenerateButton.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerationSelector/GenerationTile.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/Creators/ContextAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/SessionPersistence/AnimateGeneratorSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/InputReference/VideoReference.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/SessionActions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/ModelTitleCard/SelectedModelTitleCard.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/SessionPersistence/ObjectPersistence.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Windows/GenerationMetadataWindow/GenerationMetadataContent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/VideoClipExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/Settings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AnimationClipDatabaseUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/PreviewSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/ModelSelectorButton/ModelSelectorButton.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/FileUtilities.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Windows/GenerationMetadataWindow/GenerationMetadataWindow.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Motion/PoseModel.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Windows/AnimateGeneratorWindow.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/Payloads/Payload.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AnimateLoop/AnimateLoop.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/LoopPreview/LoopPreview.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AnimationClipDatabase.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Selectors/DebuggerSelectors.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/WebUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/AssetReferenceExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/Backend/Generation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Slices/DebuggerSlice.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/GenerationSetting.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Motion/Timeline.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/SessionPersistence/SharedStore.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Slices/SessionSlice.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerateDurationSlider/GenerateDurationSlider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/SplitterExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/AnimationClipResult.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/States/Sessions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Actions/GenerationResultsActions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Services/Stores/Selectors/GenerationResultsSelectors.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/GridViewExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Utilities/ImageReferenceExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerationOptions/GenerationOptions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AnimateGenerator/AnimateGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/common.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/log4netPlastic.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/lz4x64Plastic.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/unityplastic.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm.es.txt" />
-    <None Include="Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/PackageResources/Editor/ProjectSettings.uxml" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/FileSystemWatcherLicense.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/mergetool.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/common.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/differences.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.ai.toolkit@493fe336b8c1/Modules/Sdk/Editor/AiEditorToolsSdk.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/commontypes.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/plastic-gui.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/guihelp.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.zh-Hant.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/basecommands.zh-Hans.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/images.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/i3.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/cm-help.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/semantic.ja.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/configurehelper.ko.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/binmergetool.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/clientcommon.en.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/zlib64Plastic.dll" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/workspaceserver.es.txt" />
-    <None Include="Library/PackageCache/com.unity.collab-proxy@8a82222c5449/Lib/Editor/Localization/xdiff.zh-Hans.txt" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Windows/GenerationMetadataWindow/GenerationMetadataWindow.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerationSelector/GenerationTile.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/ModelTitleCard/ModelTitleCard.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/RefinementModeTabView/RefinementModeTabView.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AssetTitleCard/AssetTitleCard.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/Prompt/Prompt.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/RefinementModeTabView/RefinementModeTabView.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AnimateLoop/AnimateLoop.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AnimateGenerator/AnimateGenerator.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/ModelTitleCard/SelectedModelTitleCard.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/LoopPreview/LoopPreview.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerationSelector/GenerationTile.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/InputReference/VideoReference.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerateButton/GenerateButton.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/InputReference/InputReferenceHeader.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/ModelTitleCard/ModelTitleCard.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/InputReference/InputReferenceHeader.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AnimateLoop/AnimateLoop.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerateVariationsSlider/GenerateVariationsSlider.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/ModelSelectorButton/ModelSelectorButton.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/InputReference/InputReferenceObjectField.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerationOptions/GenerationOptions.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerationSelector/GenerationSelector.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/AnimateGenerator/AnimateGenerator.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/PreviewSizeSlider/PreviewSizeSlider.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Unity.AI.Animate.asmdef" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerateDurationSlider/GenerateDurationSlider.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/InputReference/VideoReference.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/GenerateButton/GenerateButton.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/InputReference/InputReference.uss" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/InputReference/InputReferenceObjectField.uxml" />
+    <None Include="Library/PackageCache/com.unity.ai.generators@49eb4eaccb48/Modules/Unity.AI.Animate/Components/LoopPreview/LoopPreview.uxml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1240,72 +1246,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="Unity.AI.Animate.Motion.Runtime.csproj" />
+    <ProjectReference Include="Unity.AI.Generators.Redux.csproj" />
+    <ProjectReference Include="Unity.AI.Generators.Contexts.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.GenerationContextMenu.csproj" />
+    <ProjectReference Include="Unity.AI.Generators.Asset.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.GenerationObjectPicker.csproj" />
+    <ProjectReference Include="Unity.AI.Generators.UI.csproj" />
+    <ProjectReference Include="Unity.AI.ModelSelector.csproj" />
+    <ProjectReference Include="Unity.Mathematics.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.Accounts.csproj" />
+    <ProjectReference Include="Unity.AI.Generators.Sdk.csproj" />
+    <ProjectReference Include="Unity.AI.Generators.UI.AIDropdownIntegrations.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.Asset.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.Async.csproj" />
+    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
     <ProjectReference Include="UnityEditor.TestRunner.csproj" />
     <ProjectReference Include="UnityEngine.TestRunner.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
-    <ProjectReference Include="Unity.TextMeshPro.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj" />
-    <ProjectReference Include="Unity.Timeline.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj" />
-    <ProjectReference Include="PPv2URPConverters.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj" />
-    <ProjectReference Include="Unity.Searcher.Editor.csproj" />
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj" />
-    <ProjectReference Include="Unity.Burst.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj" />
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.ONNX.Editor.csproj" />
-    <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.MacBLAS.csproj" />
-    <ProjectReference Include="Unity.Rider.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Assistant.Bridge.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.Editor.csproj" />
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj" />
-    <ProjectReference Include="Unity.Collections.csproj" />
-    <ProjectReference Include="Unity.InputSystem.ForUI.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.csproj" />
-    <ProjectReference Include="Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.csproj" />
-    <ProjectReference Include="Unity.Timeline.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj" />
-    <ProjectReference Include="Unity.AppUI.Editor.csproj" />
-    <ProjectReference Include="Unity.Mathematics.csproj" />
-    <ProjectReference Include="Unity.Serialization.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj" />
-    <ProjectReference Include="UnityEngine.UI.csproj" />
-    <ProjectReference Include="Unity.Multiplayer.Center.Common.csproj" />
-    <ProjectReference Include="Unity.Burst.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj" />
-    <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
-    <ProjectReference Include="Unity.AI.Assistant.AvatarHelper.Editor.csproj" />
-    <ProjectReference Include="Unity.Rendering.LightTransport.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.State.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj" />
-    <ProjectReference Include="Unity.AppUI.csproj" />
-    <ProjectReference Include="Unity.AppUI.Navigation.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
-    <ProjectReference Include="Unity.Collections.Editor.csproj" />
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj" />
-    <ProjectReference Include="Unity.Serialization.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.iOSBLAS.csproj" />
-    <ProjectReference Include="Unity.InputSystem.csproj" />
-    <ProjectReference Include="UnityEditor.UI.csproj" />
-    <ProjectReference Include="Unity.AppUI.Redux.csproj" />
-    <ProjectReference Include="Unity.InferenceEngine.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
