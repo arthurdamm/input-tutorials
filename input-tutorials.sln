@@ -183,6 +183,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InferenceEngine.Edito
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Assistant.Bridge.Editor", "Unity.AI.Assistant.Bridge.Editor.csproj", "{34104AB3-4DE2-1812-6CAF-F2A6940170AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputSystem.Samples.Visualizers", "InputSystem.Samples.Visualizers.csproj", "{3C5E9B06-E368-114F-227B-6515096F430E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Toolkit.Asset", "Unity.AI.Toolkit.Asset.csproj", "{B8292D94-7E01-3746-58A8-E7F83246CB05}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Serialization.Editor", "Unity.Serialization.Editor.csproj", "{FBDA50E9-03A0-C8B1-09EA-BD4BA58200D7}"
@@ -593,6 +595,10 @@ Global
 		{34104AB3-4DE2-1812-6CAF-F2A6940170AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34104AB3-4DE2-1812-6CAF-F2A6940170AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34104AB3-4DE2-1812-6CAF-F2A6940170AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5E9B06-E368-114F-227B-6515096F430E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5E9B06-E368-114F-227B-6515096F430E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5E9B06-E368-114F-227B-6515096F430E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5E9B06-E368-114F-227B-6515096F430E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8292D94-7E01-3746-58A8-E7F83246CB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8292D94-7E01-3746-58A8-E7F83246CB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8292D94-7E01-3746-58A8-E7F83246CB05}.Release|Any CPU.ActiveCfg = Release|Any CPU

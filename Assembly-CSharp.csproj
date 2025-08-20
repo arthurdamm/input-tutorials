@@ -54,6 +54,8 @@
     <Compile Include="Assets/InputSystemScripts/PlayerController.cs" />
     <Compile Include="Assets/Art/Scripts/Player_Walk.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/LookDebugText.cs" />
+    <Compile Include="Assets/Scripts/PlayerWalk.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Scenes/Playground/PauseMenu.uxml" />
@@ -1073,6 +1075,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="InputSystem.Samples.Visualizers.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
     <ProjectReference Include="Unity.TextMeshPro.csproj" />
     <ProjectReference Include="Unity.AI.Navigation.csproj" />

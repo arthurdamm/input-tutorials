@@ -612,6 +612,14 @@
       <HintPath>Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="AiEditorToolsSdk">
+      <HintPath>Library/PackageCache/com.unity.ai.toolkit@493fe336b8c1/Modules/Sdk/Editor/AiEditorToolsSdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>/Applications/Unity/Hub/Editor/6000.2.0f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
       <Private>False</Private>

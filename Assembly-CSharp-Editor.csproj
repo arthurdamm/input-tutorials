@@ -1243,11 +1243,13 @@
     <ProjectReference Include="Assembly-CSharp.csproj" />
     <ProjectReference Include="UnityEditor.TestRunner.csproj" />
     <ProjectReference Include="UnityEngine.TestRunner.csproj" />
+    <ProjectReference Include="InputSystem.Samples.Visualizers.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
     <ProjectReference Include="Unity.TextMeshPro.csproj" />
     <ProjectReference Include="Unity.AI.Navigation.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj" />
+    <ProjectReference Include="Unity.Splines.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
     <ProjectReference Include="Unity.AI.Navigation.Updater.csproj" />
     <ProjectReference Include="Unity.Timeline.csproj" />
@@ -1262,6 +1264,8 @@
     <ProjectReference Include="Unity.VisualScripting.Core.csproj" />
     <ProjectReference Include="Unity.Mathematics.Editor.csproj" />
     <ProjectReference Include="Unity.InferenceEngine.ONNX.Editor.csproj" />
+    <ProjectReference Include="Unity.Cinemachine.Editor.csproj" />
+    <ProjectReference Include="Unity.Cinemachine.csproj" />
     <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj" />
     <ProjectReference Include="Unity.InferenceEngine.MacBLAS.csproj" />
     <ProjectReference Include="Unity.Rider.Editor.csproj" />
@@ -1303,6 +1307,8 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj" />
     <ProjectReference Include="Unity.InferenceEngine.iOSBLAS.csproj" />
     <ProjectReference Include="Unity.InputSystem.csproj" />
+    <ProjectReference Include="Unity.Settings.Editor.csproj" />
+    <ProjectReference Include="Unity.Splines.csproj" />
     <ProjectReference Include="UnityEditor.UI.csproj" />
     <ProjectReference Include="Unity.AppUI.Redux.csproj" />
     <ProjectReference Include="Unity.InferenceEngine.csproj" />
