@@ -10,8 +10,8 @@ public class PlayerWalk : MonoBehaviour
     private InputAction m_lookAction;
     private InputAction m_jumpAction;
 
-    private Vector2 m_moveAmt;
-    private Vector2 m_lookAmt;
+    [NonSerialized] [SerializeField] private Vector2 m_moveAmt;
+    [NonSerialized] [SerializeField] private Vector2 m_lookAmt;
     private Animator m_animator;
     private Rigidbody m_rigidbody;
 
@@ -37,6 +37,7 @@ public class PlayerWalk : MonoBehaviour
         // m_moveAction = InputSystem.actions.FindAction("Move");
         // m_lookAction = InputSystem.actions.FindAction("Look");
         // m_jumpAction = InputSystem.actions.FindAction("Jump");
+        
 
         var playerMap = InputActions.FindActionMap("Player", throwIfNotFound: true);
         m_moveAction = playerMap.FindAction("Move", throwIfNotFound: true);
@@ -45,6 +46,7 @@ public class PlayerWalk : MonoBehaviour
 
         m_animator = GetComponent<Animator>();
         m_rigidbody = GetComponent<Rigidbody>();
+        
 
     // this can also be done with a processor in the input action
         var dev = m_lookAction.activeControl?.device;
@@ -56,6 +58,7 @@ public class PlayerWalk : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
 
     }
 

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d4243d3-6e5f-4342-b974-b9ffdc058f51" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWalk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWalk.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InputSystem.Samples.Visualizers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/InputSystem.Samples.Visualizers.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker2-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker3-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPv2URPConverters.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PPv2URPConverters.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Animate.Motion.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Animate.Motion.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Animate.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Animate.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Assistant.AvatarHelper.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Assistant.AvatarHelper.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Assistant.Bridge.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Assistant.Bridge.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Assistant.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Assistant.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Assistant.UI.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Assistant.UI.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Generators.Asset.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Generators.Asset.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Generators.Chat.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Generators.Chat.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Generators.Contexts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Generators.Contexts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Generators.Redux.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Generators.Redux.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Generators.Sdk.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Generators.Sdk.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Generators.UI.AIDropdownIntegrations.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Generators.UI.AIDropdownIntegrations.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Generators.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Generators.UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Image.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Image.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Material.Srp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Material.Srp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Material.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Material.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.ModelSelector.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.ModelSelector.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.ModelTrainer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.ModelTrainer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Navigation.Editor.ConversionSystem.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Navigation.Editor.ConversionSystem.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Navigation.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Navigation.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Navigation.Updater.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Navigation.Updater.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Navigation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Navigation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Sound.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Sound.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Toolkit.Accounts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Toolkit.Accounts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Toolkit.Asset.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Toolkit.Asset.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Toolkit.Async.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Toolkit.Async.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Toolkit.Chat.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Toolkit.Chat.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Toolkit.Compliance.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Toolkit.Compliance.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Toolkit.GenerationContextMenu.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Toolkit.GenerationContextMenu.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AI.Toolkit.GenerationObjectPicker.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AI.Toolkit.GenerationObjectPicker.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AppUI.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AppUI.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AppUI.InternalAPIBridge.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AppUI.InternalAPIBridge.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AppUI.MVVM.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AppUI.MVVM.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AppUI.Navigation.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AppUI.Navigation.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AppUI.Navigation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AppUI.Navigation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AppUI.Redux.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AppUI.Redux.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AppUI.Undo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AppUI.Undo.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.AppUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.AppUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Burst.CodeGen.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Burst.CodeGen.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Burst.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Burst.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Burst.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Burst.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Cinemachine.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Cinemachine.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Cinemachine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Cinemachine.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.CollabProxy.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.CollabProxy.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Collections.CodeGen.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Collections.CodeGen.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Collections.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Collections.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Collections.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Collections.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InferenceEngine.Editor.Visualizer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InferenceEngine.Editor.Visualizer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InferenceEngine.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InferenceEngine.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InferenceEngine.MacBLAS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InferenceEngine.MacBLAS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InferenceEngine.Microsoft.Msagl.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InferenceEngine.Microsoft.Msagl.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InferenceEngine.ONNX.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InferenceEngine.ONNX.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InferenceEngine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InferenceEngine.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InferenceEngine.iOSBLAS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InferenceEngine.iOSBLAS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InputSystem.DocCodeSamples.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InputSystem.DocCodeSamples.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InputSystem.ForUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InputSystem.ForUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InputSystem.TestFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InputSystem.TestFramework.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.InputSystem.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.InputSystem.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Mathematics.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Mathematics.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Mathematics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Mathematics.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Multiplayer.Center.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Multiplayer.Center.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Multiplayer.Center.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Multiplayer.Center.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.PerformanceTesting.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.PerformanceTesting.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.PerformanceTesting.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.PerformanceTesting.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.PlasticSCM.Editor.Entities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.PlasticSCM.Editor.Entities.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.PlasticSCM.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.PlasticSCM.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipeline.Universal.ShaderLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipeline.Universal.ShaderLibrary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Core.Editor.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Core.Editor.Shared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Core.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Core.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Core.Runtime.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Core.Runtime.Shared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Core.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Core.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Core.ShaderLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Core.ShaderLibrary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.GPUDriven.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.GPUDriven.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.2D.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.2D.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.Config.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.Config.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.Shaders.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.RenderPipelines.Universal.Shaders.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Rendering.LightTransport.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Rendering.LightTransport.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Rendering.LightTransport.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Rendering.LightTransport.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Rider.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Rider.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Searcher.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Searcher.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Serialization.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Serialization.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Serialization.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Serialization.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Settings.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Settings.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.ShaderGraph.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.ShaderGraph.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.ShaderGraph.Utilities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.ShaderGraph.Utilities.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Splines.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Splines.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Splines.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Splines.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.TextMeshPro.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.TextMeshPro.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.TextMeshPro.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.TextMeshPro.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Timeline.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Timeline.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.Timeline.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.Timeline.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualScripting.Core.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualScripting.Core.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualScripting.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualScripting.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualScripting.Flow.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualScripting.Flow.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualScripting.Flow.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualScripting.Flow.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualScripting.SettingsProvider.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualScripting.SettingsProvider.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualScripting.Shared.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualScripting.Shared.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualScripting.State.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualScripting.State.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualScripting.State.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualScripting.State.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity.VisualStudio.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Unity.VisualStudio.Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityEditor.TestRunner.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityEditor.TestRunner.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityEditor.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityEditor.UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityEngine.TestRunner.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityEngine.TestRunner.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityEngine.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityEngine.UI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input-tutorials.sln" beforeDir="false" afterPath="$PROJECT_DIR$/input-tutorials.sln" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="31XOby5zpDCptgUANnnCmU42TSq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.build.unityPlugin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.2.0f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d4243d3-6e5f-4342-b974-b9ffdc058f51" name="Changes" comment="" />
+      <created>1755667026496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755667026496</updated>
+      <workItem from="1755667027866" duration="388000" />
+      <workItem from="1755667483859" duration="438000" />
+      <workItem from="1755667935527" duration="562000" />
+      <workItem from="1755668516206" duration="2834000" />
+      <workItem from="1755726185862" duration="2088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
