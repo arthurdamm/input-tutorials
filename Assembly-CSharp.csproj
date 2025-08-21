@@ -58,6 +58,7 @@
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/LookDebugText.cs" />
     <Compile Include="Assets/Scripts/Walk.cs" />
+    <Compile Include="Assets/InputAssets/CameraControls.cs" />
     <Compile Include="Assets/Scripts/PlayerWalk.cs" />
     <Compile Include="Assets/Scripts/WalkAgain.cs" />
     <None Include="Assets/Scenes/Playground/PauseMenu.uxml" />

@@ -62,9 +62,16 @@ public class CameraMovementAgain : MonoBehaviour
     {
         lastPosition = transform.position;
         movement = cameraActions.Camera.Movement;
+        cameraActions.Camera.RotateCamera.performed += RotateCamera;
         cameraActions.Camera.Enable();
     }
     
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -75,8 +82,25 @@ public class CameraMovementAgain : MonoBehaviour
 
     private void OnDisable()
     {
+        cameraActions.Camera.RotateCamera.performed -= RotateCamera;
         cameraActions.Camera.Disable();
         // cameraActions.Disable(); // or this?
+    }
+
+    private void RotateCamera(InputAction.CallbackContext inputValue)
+    {
+        if (!Mouse.current.rightButton.isPressed)
+        {
+            return;
+        }
+
+        float value = inputValue.ReadValue<Vector2>().x;
+        float currAngleY = transform.rotation.eulerAngles.y;
+        
+        // why not cameraTransform?
+        transform.rotation = Quaternion.Euler(0f, value * maxRotationSpeed + transform.rotation.eulerAngles.y, 0f);
+        Debug.Log($"RotateCamera() readValue:{value:F2} currAngle:{currAngleY} deltaAngle:{value * maxRotationSpeed} Quaternion: " + transform.rotation);
+
     }
 
     void UpdateVelocity()
@@ -88,12 +112,15 @@ public class CameraMovementAgain : MonoBehaviour
 
     void GetKeyboardMovement()
     {
+        Vector2 rawInputValue = movement.ReadValue<Vector2>();
         Vector3 inputValue = movement.ReadValue<Vector2>().x * GetCameraRight()
                              + movement.ReadValue<Vector2>().y * GetCameraForward();
+        
         inputValue = inputValue.normalized;
         if (inputValue.sqrMagnitude > .1f)
         {
             targetPosition += inputValue;
+            Debug.Log($"GetKeyboardMovement() inputValue:{rawInputValue} delta:{inputValue} tp:{targetPosition}");
         }
 
     }
@@ -127,12 +154,5 @@ public class CameraMovementAgain : MonoBehaviour
 
         targetPosition = Vector3.zero; // reset every frame?
     }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-
+    
 }
