@@ -8,7 +8,7 @@ public class Walk : MonoBehaviour
     [SerializeField] private InputActionAsset  actionAsset;
     private InputActionMap playerMap;
     [SerializeField] private Animator animator;
-    [SerializeField] private Rigidbody rigidbody;
+    [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] public float moveSpeed = 5f;
     [SerializeField] public float rotateSpeed = 200f;
     [SerializeField] private Vector2 moveAmt;
@@ -30,7 +30,7 @@ public class Walk : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        rigidbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -54,19 +54,19 @@ public class Walk : MonoBehaviour
     {
         float rotateAmount = lookAmt.x * rotateSpeed * Time.deltaTime;
         Quaternion rotation = Quaternion.Euler(0, rotateAmount, 0);
-        rigidbody.MoveRotation(rigidbody.rotation * rotation);
+        _rigidbody.MoveRotation(_rigidbody.rotation * rotation);
     }
 
     private void Walking()
     {
         float moveAmount = moveAmt.y * moveSpeed * Time.deltaTime;
-        rigidbody.MovePosition(rigidbody.position + transform.forward * moveAmount);
+        _rigidbody.MovePosition(_rigidbody.position + transform.forward * moveAmount);
         animator.SetFloat("Speed", moveAmt.y);
     }
 
     private void Jump()
     {
-        rigidbody.AddForceAtPosition(new Vector3(0f, 5f, 0f), rigidbody.position,  ForceMode.Impulse);
+        _rigidbody.AddForceAtPosition(new Vector3(0f, 5f, 0f), _rigidbody.position,  ForceMode.Impulse);
         animator.SetTrigger("Jump");
     }
 }

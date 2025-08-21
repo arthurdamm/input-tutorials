@@ -49,6 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Art/Scripts/ParticleSystemMultiplier.cs" />
+    <Compile Include="Assets/Scripts/CameraMovementAgain.cs" />
+    <Compile Include="Assets/Scripts/CameraMovement.cs" />
+    <Compile Include="Assets/Scripts/CameraControls.cs" />
+    <Compile Include="Assets/Scripts/StrategyController.cs" />
     <Compile Include="Assets/InputSystemScripts/PlayerController.cs" />
     <Compile Include="Assets/Art/Scripts/Player_Walk.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />

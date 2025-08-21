@@ -2947,16 +2947,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 4416926083347132227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 623a3a89c8cb24a4dba0b54eaeda02a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 576d307a79ae046058cefe04a0179def, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Walk
+  m_EditorClassIdentifier: Assembly-CSharp::WalkAgain
   actionAsset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  playerMap:
+    m_Name: Player Map
+    m_Id: 20721389-430a-48cc-ad63-4e37fead4cab
+    m_Asset: {fileID: 0}
+    m_Actions: []
+    m_Bindings: []
+  moveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 65efed17-e509-476f-b8c9-7cc578d045f3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  lookAction:
+    m_Name: Look
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f962fea3-9cc9-4cb6-8f48-f9cffb0eb481
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  jumpAction:
+    m_Name: Jump
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 69387906-7a6b-4024-b3f5-9014bcf44c1b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   animator: {fileID: 0}
-  rigidbody: {fileID: 0}
+  rb: {fileID: 0}
+  lookSpeed: 200
   moveSpeed: 5
-  rotateSpeed: 200
-  moveAmt: {x: 0, y: 0}
   lookAmt: {x: 0, y: 0}
+  moveAmt: {x: 0, y: 0}
 --- !u!4 &6983258930626336602
 Transform:
   m_ObjectHideFlags: 0
