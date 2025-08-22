@@ -38,7 +38,7 @@ public class CameraMovementAgain : MonoBehaviour
     [SerializeField]
     private float edgeTolerance = .05f;
     [SerializeField]
-    private bool useScreenEdge = true;
+    private bool useScreenEdge = false;
 
     // updated by various functions -- used to update position of base camera obj
     private Vector3 targetPosition;
@@ -89,6 +89,7 @@ public class CameraMovementAgain : MonoBehaviour
     {
         GetKeyboardMovement();
         CheckMouseAtScreenEdge();
+        DragCamera();
         UpdateVelocity();
         UpdateCameraPosition(); // why not after base?
         UpdateBasePosition();
@@ -207,8 +208,29 @@ public class CameraMovementAgain : MonoBehaviour
         }
 
         targetPosition += mouseDirection;
+    }
 
+    private void DragCamera()
+    {
+        if (!Mouse.current.middleButton.isPressed)
+        {
+            return;
+        }
 
+        Plane plane = new Plane(Vector3.up, Vector3.zero);
+        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+
+        if (plane.Raycast(ray, out float distance))
+        {
+            if (Mouse.current.middleButton.wasPressedThisFrame)
+            {
+                startDrag = ray.GetPoint(distance);
+            }
+            else
+            {
+                targetPosition += startDrag - ray.GetPoint(distance);
+            }
+        }
     }
     
 }
