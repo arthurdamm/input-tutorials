@@ -42,7 +42,7 @@ public class CameraMovementAgain : MonoBehaviour
 
     // updated by various functions -- used to update position of base camera obj
     private Vector3 targetPosition;
-    private float zoomHeight;
+    private float zoomHeight = 10f;
     
     // used to track velocity w/o rigidbody
     private Vector3 horizontalVelocity;
@@ -60,10 +60,22 @@ public class CameraMovementAgain : MonoBehaviour
 
     private void OnEnable()
     {
+        zoomHeight = cameraTransform.localPosition.y;
+        cameraTransform.LookAt(transform);
+        Debug.Log($"camera local.y: {cameraTransform.localPosition.y} world.y: {cameraTransform.position.y}");
         lastPosition = transform.position;
         movement = cameraActions.Camera.Movement;
         cameraActions.Camera.RotateCamera.performed += RotateCamera;
+        cameraActions.Camera.ZoomCamera.performed += ZoomCamera;
         cameraActions.Camera.Enable();
+    }
+    
+    private void OnDisable()
+    {
+        cameraActions.Camera.RotateCamera.performed -= RotateCamera;
+        cameraActions.Camera.ZoomCamera.performed += ZoomCamera;
+        cameraActions.Camera.Disable();
+        // cameraActions.Disable(); // or this?
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -76,33 +88,12 @@ public class CameraMovementAgain : MonoBehaviour
     void Update()
     {
         GetKeyboardMovement();
+        CheckMouseAtScreenEdge();
         UpdateVelocity();
+        UpdateCameraPosition(); // why not after base?
         UpdateBasePosition();
     }
-
-    private void OnDisable()
-    {
-        cameraActions.Camera.RotateCamera.performed -= RotateCamera;
-        cameraActions.Camera.Disable();
-        // cameraActions.Disable(); // or this?
-    }
-
-    private void RotateCamera(InputAction.CallbackContext inputValue)
-    {
-        if (!Mouse.current.rightButton.isPressed)
-        {
-            return;
-        }
-
-        float value = inputValue.ReadValue<Vector2>().x;
-        float currAngleY = transform.rotation.eulerAngles.y;
-        
-        // why not cameraTransform?
-        transform.rotation = Quaternion.Euler(0f, value * maxRotationSpeed + transform.rotation.eulerAngles.y, 0f);
-        Debug.Log($"RotateCamera() readValue:{value:F2} currAngle:{currAngleY} deltaAngle:{value * maxRotationSpeed} Quaternion: " + transform.rotation);
-
-    }
-
+    
     void UpdateVelocity()
     {
         horizontalVelocity = (transform.position - lastPosition) / Time.deltaTime;
@@ -153,6 +144,71 @@ public class CameraMovementAgain : MonoBehaviour
         }
 
         targetPosition = Vector3.zero; // reset every frame?
+    }
+    
+    private void RotateCamera(InputAction.CallbackContext inputValue)
+    {
+        if (!Mouse.current.rightButton.isPressed)
+        {
+            return;
+        }
+
+        float value = inputValue.ReadValue<Vector2>().x;
+        float currAngleY = transform.rotation.eulerAngles.y;
+        
+        // why not cameraTransform?
+        transform.rotation = Quaternion.Euler(0f, value * maxRotationSpeed + transform.rotation.eulerAngles.y, 0f);
+        Debug.Log($"RotateCamera() readValue:{value:F2} currAngle:{currAngleY} deltaAngle:{value * maxRotationSpeed} Quaternion: " + transform.rotation);
+
+    }
+    
+    private void ZoomCamera(InputAction.CallbackContext inputValue)
+    {
+        float value = -inputValue.ReadValue<Vector2>().y / 100f;
+        if (Mathf.Abs(value) > 0.1f)
+        {
+            zoomHeight = cameraTransform.localPosition.y + value * stepSize;
+            zoomHeight = Mathf.Clamp(zoomHeight, minHeight, maxHeight);
+        }
+    }
+
+    private void UpdateCameraPosition()
+    {
+        Vector3 zoomTarget = new Vector3(cameraTransform.localPosition.x, zoomHeight, cameraTransform.localPosition.z);
+        zoomTarget -= zoomSpeed * (zoomHeight - cameraTransform.localPosition.y) * Vector3.forward;
+        cameraTransform.localPosition =
+            Vector3.Lerp(cameraTransform.localPosition, zoomTarget, Time.deltaTime * zoomDamping);
+        cameraTransform.LookAt(transform);
+    }
+
+    private void CheckMouseAtScreenEdge()
+    {
+        if (!useScreenEdge)
+        {
+            return;
+        }
+        Vector2 mousePosition = Mouse.current.position.ReadValue();
+        Vector3 mouseDirection = Vector3.zero;
+
+        if (mousePosition.x < edgeTolerance * Screen.width)
+        {
+            mouseDirection += -GetCameraRight();
+        } else if (mousePosition.x > (1f - edgeTolerance) * Screen.width)
+        {
+            mouseDirection += GetCameraRight();
+        }
+        
+        if (mousePosition.y < edgeTolerance * Screen.height)
+        {
+            mouseDirection += -GetCameraForward();
+        } else if (mousePosition.y > (1f - edgeTolerance) * Screen.height)
+        {
+            mouseDirection += GetCameraForward();
+        }
+
+        targetPosition += mouseDirection;
+
+
     }
     
 }

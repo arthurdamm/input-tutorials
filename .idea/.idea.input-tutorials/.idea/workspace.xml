@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="7d4243d3-6e5f-4342-b974-b9ffdc058f51" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.input-tutorials/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.input-tutorials/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputAssets/CameraControls.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputAssets/CameraControls.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StrategyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StrategyScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovementAgain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMovementAgain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input-tutorials.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/input-tutorials.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3a442e7ee16b463cad1a19a4cd85194e1f5800/dd/1cb20ab8/Mathf.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -24,7 +33,7 @@
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -38,6 +47,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -112,7 +122,7 @@
       <workItem from="1755667483859" duration="438000" />
       <workItem from="1755667935527" duration="562000" />
       <workItem from="1755668516206" duration="2834000" />
-      <workItem from="1755726185862" duration="17005000" />
+      <workItem from="1755726185862" duration="21478000" />
     </task>
     <servers />
   </component>
