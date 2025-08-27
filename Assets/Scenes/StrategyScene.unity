@@ -524,7 +524,7 @@ MonoBehaviour:
   zoomSpeed: 2
   maxRotationSpeed: 1
   edgeTolerance: 0.05
-  useScreenEdge: 1
+  useScreenEdge: 0
 --- !u!1 &1139751958
 GameObject:
   m_ObjectHideFlags: 0
